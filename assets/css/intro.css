@@ -1,0 +1,2940 @@
+/* Made by Masstige */
+@font-face {
+  font-family: "GongGothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.container {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1440px;
+}
+
+.main {
+  overflow-x: hidden;
+}
+
+@-webkit-keyframes colorWR {
+  0% {
+    color: #fff;
+  }
+  50% {
+    color: #cc092f;
+  }
+  100% {
+    color: #fff;
+  }
+}
+
+@keyframes colorWR {
+  0% {
+    color: #fff;
+  }
+  50% {
+    color: #cc092f;
+  }
+  100% {
+    color: #fff;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes blink2 {
+  50% {
+    color: rgb(250, 250, 250);
+  }
+}
+@keyframes blink2 {
+  50% {
+    color: rgb(250, 250, 250);
+  }
+}
+@-webkit-keyframes ci {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes ci {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@-webkit-keyframes down {
+  0%, 24%, 48% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  12%, 36% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+}
+@keyframes down {
+  0%, 24%, 48% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  12%, 36% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+}
+@-webkit-keyframes zio {
+  0% {
+    -webkit-transform: scale(1.12);
+            transform: scale(1.12);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  55% {
+    -webkit-transform: scale(1.12);
+            transform: scale(1.12);
+  }
+  60% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  65% {
+    -webkit-transform: scale(1.12);
+            transform: scale(1.12);
+  }
+  70% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  95% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1.12);
+            transform: scale(1.12);
+  }
+}
+@keyframes zio {
+  0% {
+    -webkit-transform: scale(1.12);
+            transform: scale(1.12);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  55% {
+    -webkit-transform: scale(1.12);
+            transform: scale(1.12);
+  }
+  60% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  65% {
+    -webkit-transform: scale(1.12);
+            transform: scale(1.12);
+  }
+  70% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  95% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1.12);
+            transform: scale(1.12);
+  }
+}
+@-webkit-keyframes zio2 {
+  0% {
+    -webkit-transform: scale(1.18);
+            transform: scale(1.18);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  55% {
+    -webkit-transform: scale(1.18);
+            transform: scale(1.18);
+  }
+  60% {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+  }
+  65% {
+    -webkit-transform: scale(1.18);
+            transform: scale(1.18);
+  }
+  70% {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+  }
+  95% {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+  }
+  100% {
+    -webkit-transform: scale(1.18);
+            transform: scale(1.18);
+  }
+}
+@keyframes zio2 {
+  0% {
+    -webkit-transform: scale(1.18);
+            transform: scale(1.18);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  55% {
+    -webkit-transform: scale(1.18);
+            transform: scale(1.18);
+  }
+  60% {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+  }
+  65% {
+    -webkit-transform: scale(1.18);
+            transform: scale(1.18);
+  }
+  70% {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+  }
+  95% {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+  }
+  100% {
+    -webkit-transform: scale(1.18);
+            transform: scale(1.18);
+  }
+}
+@-webkit-keyframes deli {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+@keyframes deli {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+@-webkit-keyframes colorBlink {
+  50% {
+    color: rgb(254, 149, 39);
+  }
+}
+@keyframes colorBlink {
+  50% {
+    color: rgb(254, 149, 39);
+  }
+}
+@-webkit-keyframes colorBlink2 {
+  50% {
+    color: #ffcc00;
+  }
+}
+@keyframes colorBlink2 {
+  50% {
+    color: #ffcc00;
+  }
+}
+.container-sm {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1280px;
+}
+
+.container-lg {
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.inquiry-banner {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #cc092f;
+  padding: 20px 0;
+  z-index: 600;
+}
+.inquiry-banner .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media all and (max-width: 1200px) {
+  .inquiry-banner .inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.inquiry-banner .inner .tit {
+  color: white;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  font-size: 1.75rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0%;
+          flex: 1 1 0%;
+}
+.inquiry-banner .inner .tit img {
+  margin-right: 10px;
+}
+@media all and (max-width: 1200px) {
+  .inquiry-banner .inner .tit {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  .inquiry-banner .inner .tit img {
+    width: 20px;
+    margin-right: 5px;
+  }
+}
+.inquiry-banner .inner .form-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -5px !important;
+}
+.inquiry-banner .inner .form-top .form-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20%;
+          flex: 1 1 20%;
+  padding: 0 5px;
+}
+@media all and (max-width: 1400px) {
+  .inquiry-banner .inner .form-top .form-item.btn {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    max-width: 100%;
+  }
+  .inquiry-banner .inner .form-top .form-item.btn button {
+    height: 2.2rem;
+  }
+}
+.inquiry-banner .inner .form-top input {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  border: none;
+  width: 100%;
+}
+.inquiry-banner .inner .form-top input::-webkit-input-placeholder {
+  color: white;
+}
+.inquiry-banner .inner .form-top input::-moz-placeholder {
+  color: white;
+}
+.inquiry-banner .inner .form-top input:-ms-input-placeholder {
+  color: white;
+}
+.inquiry-banner .inner .form-top input::-ms-input-placeholder {
+  color: white;
+}
+.inquiry-banner .inner .form-top input::placeholder {
+  color: white;
+}
+.inquiry-banner .inner .form-top .btn-type-01 {
+  background-color: #000;
+  border-color: #000;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+.inquiry-banner .inner .form-top .btn-type-01:hover {
+  background-color: #000 !important;
+}
+@media all and (max-width: 1400px) {
+  .inquiry-banner .inner .form-top {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0 -5px !important;
+  }
+  .inquiry-banner .inner .form-top .form-item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 50%;
+            flex: 1 1 50%;
+    max-width: 50%;
+    padding: 0 5px;
+    margin-bottom: 5px;
+  }
+  .inquiry-banner .inner .form-top input {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none;
+    height: 2.2rem;
+  }
+  .inquiry-banner .inner .form-top .btn-type-01 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    max-width: 100%;
+    background-color: #000;
+    border-color: #000;
+    color: white;
+    margin: 0;
+  }
+}
+@media all and (max-width: 1400px) and (max-width: 1400px) {
+  .inquiry-banner .inner .form-top .btn-type-01 i {
+    margin-top: 3px;
+  }
+}
+.inquiry-banner .inner .agree_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+@media all and (max-width: 1400px) {
+  .inquiry-banner {
+    padding: 10px 0;
+  }
+}
+.inquiry-banner .inquiry-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.main-section {
+  background: url("../images/intro/main-bg.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+@media all and (max-width: 1024px) {
+  .main-section {
+    background: url("../images/intro/main-bg-m.jpg") no-repeat;
+    background-size: cover;
+    padding: 7rem 0;
+    height: 100%;
+  }
+}
+.main-section .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+.main-section .tit {
+  font-size: 2rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  font-weight: 300;
+  color: white;
+  display: inline-block;
+  background-color: #cc092f;
+  padding: 10px 30px;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+@media all and (max-width: 1024px) {
+  .main-section .tit {
+    font-size: 1.125rem;
+    padding: 5px 15px;
+  }
+}
+.main-section .tit-img {
+  opacity: 0;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.main-section .txt {
+  font-size: 1.5rem;
+  letter-spacing: -0.025em;
+  color: white;
+  text-align: center;
+}
+@media all and (max-width: 1024px) {
+  .main-section .txt {
+    font-size: 1.125rem;
+  }
+}
+.main-section .ico-wrap {
+  margin: 0 -30px;
+  margin-top: 4rem;
+}
+.main-section .ico-item {
+  padding: 0 30px;
+}
+@media all and (max-width: 1024px) {
+  .main-section .ico-item {
+    margin-bottom: 15px;
+  }
+}
+.main-section .ico-item .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+}
+.main-section .ico-item .inner .keyword {
+  font-size: 1.375rem;
+  color: #ffcc00;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  -webkit-animation: colorBlink 1s step-end infinite;
+          animation: colorBlink 1s step-end infinite;
+}
+.main-section .ico-item .inner .keyword .strong {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+.main-section .ico-item .inner .txt {
+  font-size: 1.125rem;
+  color: white;
+  white-space: nowrap;
+}
+@media all and (max-width: 1024px) {
+  .main-section .ico-item .inner .keyword {
+    font-size: 1.125rem;
+  }
+  .main-section .ico-item .inner .keyword .strong {
+    font-size: 1.25rem;
+  }
+  .main-section .ico-item .inner .txt {
+    font-size: 1rem;
+  }
+}
+.main-section.active .tit-img {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.5s 1s;
+  transition: all 0.5s 1s;
+  -webkit-animation: ci 1s ease infinite;
+          animation: ci 1s ease infinite;
+}
+
+.promise-section {
+  background: url("../images/intro/promise.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 7rem;
+}
+.promise-section .txt-bx {
+  text-align: center;
+}
+.promise-section .txt-bx .tit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.promise-section .txt-bx .txt {
+  font-size: 1.5rem;
+  letter-spacing: -0.025em;
+  color: white;
+}
+.promise-section .img-bx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.promise-section .img-bx .promise-bg {
+  position: relative;
+  z-index: 2;
+}
+@media all and (max-width: 1400px) {
+  .promise-section .img-bx .promise-bg {
+    width: 46.25rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media all and (max-width: 1024px) {
+  .promise-section .img-bx .promise-bg {
+    width: 48.75rem;
+  }
+}
+@media all and (max-width: 768px) {
+  .promise-section .img-bx .promise-bg {
+    width: 100%;
+  }
+}
+.promise-section .img-bx .promise-list {
+  position: relative;
+  margin-left: -196px;
+  margin-top: 13rem;
+  z-index: 6;
+}
+@media (max-width: 1700px) {
+  .promise-section .img-bx .promise-list {
+    margin-left: -296px;
+  }
+}
+@media (max-width: 1600px) {
+  .promise-section .img-bx .promise-list {
+    margin-left: -400px;
+  }
+}
+@media (max-width: 1500px) {
+  .promise-section .img-bx .promise-list {
+    margin-left: -480px;
+  }
+}
+@media all and (max-width: 1400px) {
+  .promise-section .img-bx .promise-list {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+  }
+}
+.promise-section .img-bx .promise-list .list-top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 43%;
+  padding: 3rem;
+  text-align: center;
+}
+.promise-section .img-bx .promise-list .list-top .tit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2.75rem;
+  font-weight: bold;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  position: relative;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  white-space: nowrap;
+}
+.promise-section .img-bx .promise-list .list-top .tit .success {
+  position: relative;
+}
+.promise-section .img-bx .promise-list .list-top .tit .success img {
+  position: absolute;
+  left: 11px;
+  bottom: 0;
+}
+.promise-section .img-bx .promise-list .list-top .tit .star {
+  position: absolute;
+  right: -5px;
+  top: -10px;
+}
+.promise-section .img-bx .promise-list .list-top .tit .main-color {
+  color: #c70000;
+}
+.promise-section .img-bx .promise-list .list-top .tit .main-color:nth-child(1) {
+  -webkit-animation: blink 1s ease infinite 2.5s;
+          animation: blink 1s ease infinite 2.5s;
+}
+.promise-section .img-bx .promise-list .list-top .list-item .list {
+  background: rgb(212, 47, 77);
+  background: -webkit-gradient(linear, left top, right top, from(rgb(212, 47, 77)), to(rgb(254, 149, 39)));
+  background: linear-gradient(90deg, rgb(212, 47, 77) 0%, rgb(254, 149, 39) 100%);
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  text-align: left;
+  color: white;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  font-size: 1.375rem;
+  opacity: 0;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.promise-section .img-bx .promise-list .list-top .list-item .list:nth-child(1) {
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+.promise-section .img-bx .promise-list .list-top .list-item .list:nth-child(2) {
+  -webkit-transition-delay: 1.2s;
+          transition-delay: 1.2s;
+}
+.promise-section .img-bx .promise-list .list-top .list-item .list:nth-child(3) {
+  -webkit-transition-delay: 1.4s;
+          transition-delay: 1.4s;
+}
+.promise-section .img-bx .promise-list .list-top .list-item .list:nth-child(4) {
+  -webkit-transition-delay: 1.6s;
+          transition-delay: 1.6s;
+}
+.promise-section .img-bx .promise-list .list-top .list-item .list:nth-child(5) {
+  -webkit-transition-delay: 1.8s;
+          transition-delay: 1.8s;
+}
+@media all and (max-width: 1400px) {
+  .promise-section .img-bx .promise-list .list-top {
+    position: relative;
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+    padding: 2rem 1.5rem;
+  }
+}
+@media all and (max-width: 1400px) and (max-width: 1024px) {
+  .promise-section .img-bx .promise-list .list-top .list-item .list {
+    font-size: 1rem;
+  }
+}
+.promise-section .img-bx .promise-list .list-bottom {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin-bottom: 101px;
+  padding: 4rem;
+  color: white;
+}
+.promise-section .img-bx .promise-list .list-bottom .tit {
+  font-size: 1.25rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+  color: #e0e0e0;
+}
+.promise-section .img-bx .promise-list .list-bottom .tit2 {
+  font-size: 1.125rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #e0e0e0;
+}
+.promise-section .img-bx .promise-list .list-bottom .des {
+  font-size: 0.875rem;
+  margin-top: 2rem;
+}
+.promise-section .img-bx .promise-list .list-bottom .inner {
+  position: relative;
+}
+.promise-section .img-bx .promise-list .list-bottom .inner .blink {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-animation: blink 1s ease infinite 0.5s;
+          animation: blink 1s ease infinite 0.5s;
+}
+@media all and (max-width: 576px) {
+  .promise-section .img-bx .promise-list .list-bottom .inner .blink {
+    left: -10px;
+    width: 80px;
+  }
+}
+@media all and (max-width: 1400px) {
+  .promise-section .img-bx .promise-list .list-bottom {
+    position: relative;
+    height: auto;
+    margin-bottom: 0;
+    background-color: #333;
+    border-radius: 0 0 20px 20px;
+    padding: 2rem 1.5rem;
+  }
+}
+.promise-section .img-bx .promise-list .shadow2 {
+  position: absolute;
+  right: 5px;
+  z-index: -1;
+  bottom: 0;
+}
+@media (max-width: 1700px) {
+  .promise-section .img-bx .promise-list .shadow2 {
+    display: none;
+  }
+}
+@media all and (max-width: 1400px) {
+  .promise-section .img-bx {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media all and (max-width: 1400px) {
+  .promise-section {
+    padding-bottom: 7rem;
+  }
+}
+.promise-section.active .img-bx .promise-list .list-top .list-item .list {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.store-section {
+  background: url("../images/intro/store-bg.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  padding: 7rem 0;
+}
+.store-section .store-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.store-section .store-top .txt-bx .tit {
+  font-size: 3.75rem;
+  color: white;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+}
+.store-section .store-top .txt-bx .tit.bg-red {
+  display: inline;
+  background-color: #cc092f;
+  padding: 5px;
+  padding: 0px 15px;
+}
+.store-section .store-top .txt-bx .check-list {
+  margin-top: 1rem;
+}
+.store-section .store-top .txt-bx .check-list .check-item {
+  position: relative;
+  font-size: 1.75rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: white;
+  padding-left: 30px;
+  margin-bottom: 4px;
+}
+.store-section .store-top .txt-bx .check-list .check-item:before {
+  content: "";
+  display: block;
+  background: url("../images/intro/store-check.png") no-repeat;
+  width: 29px;
+  height: 29px;
+  background-size: 29px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.store-section .store-top .txt-bx .check-list .check-item .main-color {
+  color: #ffe88c;
+  display: inline;
+}
+.store-section .store-top .txt-bx .check-list .check-item .img-area {
+  position: relative;
+}
+.store-section .store-top .txt-bx .check-list .check-item .img-area img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+@media all and (max-width: 1200px) {
+  .store-section .store-top .txt-bx {
+    width: 100%;
+  }
+}
+@media all and (max-width: 1200px) and (max-width: 576px) {
+  .store-section .store-top .txt-bx .tit {
+    font-size: 2.125rem;
+  }
+  .store-section .store-top .txt-bx .tit.bg-red {
+    padding: 5px;
+  }
+  .store-section .store-top .txt-bx .check-item {
+    font-size: 1rem;
+  }
+  .store-section .store-top .txt-bx .check-item:before {
+    content: "";
+    display: block;
+    background: url("../images/intro/store-check.png") no-repeat;
+    width: 15px;
+    height: 15px;
+    background-size: 15px;
+  }
+}
+.store-section .store-top .img-bx {
+  position: relative;
+}
+.store-section .store-top .img-bx .bubble-tit {
+  position: relative;
+}
+.store-section .store-top .img-bx .bubble-tit .txt {
+  font-size: 1.625rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #111;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 17%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  white-space: nowrap;
+}
+.store-section .store-top .img-bx .bubble-cont {
+  position: relative;
+}
+.store-section .store-top .img-bx .bubble-cont .blink {
+  position: absolute;
+  right: 37px;
+  top: -4px;
+  -webkit-animation: blink 1s ease infinite 0.5s;
+          animation: blink 1s ease infinite 0.5s;
+}
+@media all and (max-width: 1400px) {
+  .store-section .store-top .img-bx .bubble-cont .blink {
+    display: none;
+  }
+}
+.store-section .store-top .img-bx .stxt {
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #666666;
+}
+@media all and (max-width: 1200px) {
+  .store-section .store-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.store-section .store-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  gap: 3.5rem;
+  height: 100%;
+}
+.store-section .store-bottom .chart-wrap {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  max-width: 50%;
+}
+.store-section .store-bottom .chart-wrap .inner {
+  background-color: white;
+  border-radius: 20px;
+  height: 100%;
+}
+.store-section .store-bottom .chart-wrap .inner .tit {
+  font-size: 1.625rem;
+  color: #111;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  background-color: #ffcc00;
+  border-radius: 20px 20px 0 0;
+  padding: 1rem;
+  text-align: center;
+}
+.store-section .store-bottom .chart-wrap .inner .cont {
+  padding: 2rem 6rem;
+}
+@media all and (max-width: 1400px) {
+  .store-section .store-bottom .chart-wrap .inner .cont {
+    padding: 1.5rem;
+  }
+}
+.store-section .store-bottom .chart-wrap .inner .chart-list {
+  margin-bottom: 1rem;
+}
+.store-section .store-bottom .chart-wrap .inner .chart-list:nth-of-type(2) {
+  margin-top: 2.5rem;
+}
+.store-section .store-bottom .chart-wrap .inner .chart-list .subtit {
+  font-size: 1.25rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #111;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.store-section .store-bottom .chart-wrap .inner .chart-list .subtit .num2 {
+  background-color: #333;
+  color: white;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  padding: 0px 5px;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-left: 5px;
+}
+@media all and (max-width: 1200px) {
+  .store-section .store-bottom .chart-wrap .inner .chart-list .chart-item {
+    margin-right: 5px;
+  }
+}
+.store-section .store-bottom .chart-wrap .inner .chart-list .chart-item.after .before {
+  display: none;
+}
+.store-section .store-bottom .chart-wrap .inner .chart-list .chart-item.before .after {
+  display: none;
+}
+.store-section .store-bottom .chart-wrap .inner .gray-txt {
+  text-align: right;
+  font-size: 1.125rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #666;
+}
+.store-section .store-bottom .chart-wrap .inner .des-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem 1rem;
+  height: 100%;
+}
+@media all and (max-width: 1024px) {
+  .store-section .store-bottom .chart-wrap .inner .des-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+.store-section .store-bottom .chart-wrap .inner .des-list .des-img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 15.625rem;
+          flex: 0 0 15.625rem;
+  max-width: 15.625rem;
+  text-align: center;
+}
+.store-section .store-bottom .chart-wrap .inner .des-list .des-cont {
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+}
+.store-section .store-bottom .chart-wrap .inner .des-list .des-cont .highlight {
+  display: inline;
+  font-size: 1.375rem;
+  font-weight: 500;
+  background-color: #ff9527;
+  color: white;
+}
+.store-section .store-bottom .chart-wrap .inner .des-list .des-cont .des-tit {
+  font-size: 2rem;
+  color: #333;
+  font-weight: 300;
+}
+.store-section .store-bottom .chart-wrap .inner .des-list .des-cont .main-tit {
+  font-size: 2rem;
+  color: #cc092f;
+  font-weight: bold;
+  -webkit-animation: colorWR 1s ease infinite 0.5s;
+          animation: colorWR 1s ease infinite 0.5s;
+}
+.store-section .store-bottom .chart-wrap .inner .des-list .des-cont .des-txt {
+  font-size: 0.875rem;
+  color: #666;
+}
+@media all and (max-width: 1200px) {
+  .store-section .store-bottom .chart-wrap {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+@media all and (max-width: 1400px) {
+  .store-section .store-bottom {
+    margin-bottom: 10rem;
+  }
+}
+@media all and (max-width: 1024px) {
+  .store-section .store-bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.store-section .food {
+  position: absolute;
+  right: 0;
+  bottom: -130px;
+}
+@media (max-width: 1600px) {
+  .store-section .food {
+    bottom: -80px;
+    width: 34.375rem;
+  }
+}
+@media all and (max-width: 1400px) {
+  .store-section .food {
+    bottom: 0;
+    width: 31.25rem;
+  }
+}
+
+.sales-section {
+  background: url("../images/intro/sales-bg.jpg") no-repeat;
+  background-size: cover;
+  padding: 7rem 0;
+}
+.sales-section .txt-bx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sales-section .txt-bx .subtit {
+  font-size: 1.75rem;
+  color: #333;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+@media all and (max-width: 768px) {
+  .sales-section .txt-bx .subtit {
+    font-size: 1.25rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 10px;
+  }
+}
+.sales-section .txt-bx .tit {
+  font-size: 3.5rem;
+  color: #111;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media all and (max-width: 768px) {
+  .sales-section .txt-bx .tit {
+    font-size: 1.75rem;
+  }
+  .sales-section .txt-bx .tit img {
+    width: 150px;
+  }
+}
+.sales-section .txt-bx .des {
+  font-size: 1.375rem;
+  color: #222;
+  letter-spacing: -0.025em;
+}
+@media all and (max-width: 768px) {
+  .sales-section .txt-bx .des {
+    font-size: 1rem;
+  }
+}
+.sales-section .img-bx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  height: 100%;
+}
+.sales-section .img-bx .graph-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  max-width: 50%;
+  border: 3px solid #cc092f;
+  background-color: white;
+  border-radius: 15px;
+}
+.sales-section .img-bx .graph-item .tit {
+  background-color: #cc092f;
+  color: white;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  font-size: 1.5625rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  padding: 20px 0;
+}
+.sales-section .img-bx .inner {
+  position: relative;
+  text-align: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 3rem 10px;
+}
+.sales-section .img-bx .inner .stamp {
+  position: absolute;
+  left: 299px;
+  bottom: 166px;
+  opacity: 0;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+.sales-section .img-bx .inner .point {
+  position: absolute;
+  right: 71px;
+  top: 21px;
+  -webkit-animation: blink 1.5s ease infinite 1s;
+          animation: blink 1.5s ease infinite 1s;
+}
+@media all and (max-width: 1024px) {
+  .sales-section .img-bx .inner .point {
+    display: none;
+  }
+}
+@media all and (max-width: 1200px) {
+  .sales-section .img-bx .inner .stamp {
+    left: 50%;
+    bottom: 34%;
+  }
+}
+@media all and (max-width: 1200px) and (max-width: 1024px) {
+  .sales-section .img-bx .inner .stamp {
+    width: 80px;
+  }
+}
+@media all and (max-width: 1200px) {
+  .sales-section .img-bx .inner .point {
+    right: 26%;
+    top: 5%;
+  }
+}
+@media all and (max-width: 1200px) and (max-width: 1024px) {
+  .sales-section .img-bx .inner .point {
+    right: 20%;
+  }
+}
+@media all and (max-width: 1200px) and (max-width: 768px) {
+  .sales-section .img-bx .inner .point {
+    right: 15%;
+  }
+}
+.sales-section .img-bx .graph {
+  position: relative;
+  text-align: center;
+  height: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sales-section .img-bx .graph .graph1 {
+  position: absolute;
+  left: 37px;
+  top: 133px;
+  opacity: 0;
+  height: 0;
+  -webkit-transition: all 0.5s 1.25s;
+  transition: all 0.5s 1.25s;
+}
+@media all and (max-width: 1024px) {
+  .sales-section .img-bx .graph .graph1 {
+    display: none;
+  }
+}
+.sales-section .img-bx .graph .graph2 {
+  position: absolute;
+  left: 203px;
+  top: 117px;
+  opacity: 0;
+  height: 0;
+  -webkit-transition: all 0.5s 1.5s;
+  transition: all 0.5s 1.5s;
+}
+@media all and (max-width: 1024px) {
+  .sales-section .img-bx .graph .graph2 {
+    display: none;
+  }
+}
+.sales-section .img-bx .graph .step3 {
+  position: absolute;
+  left: 371px;
+  top: 108px;
+}
+.sales-section .img-bx .graph .step3 .graph3 {
+  opacity: 0;
+  height: 0;
+  -webkit-transition: all 0.5s 1.75s;
+  transition: all 0.5s 1.75s;
+}
+.sales-section .img-bx .graph .step3 .txt1,
+.sales-section .img-bx .graph .step3 .txt2,
+.sales-section .img-bx .graph .step3 .txt3 {
+  opacity: 0;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+.sales-section .img-bx .graph .step3 .txt1 {
+  position: absolute;
+  left: 76px;
+  top: -17px;
+}
+.sales-section .img-bx .graph .step3 .txt2 {
+  position: absolute;
+  left: 81px;
+  top: 25px;
+}
+.sales-section .img-bx .graph .step3 .txt3 {
+  position: absolute;
+  left: 82px;
+  top: 64px;
+}
+@media all and (max-width: 1024px) {
+  .sales-section .img-bx .graph .step3 {
+    display: none;
+  }
+}
+@media all and (max-width: 1200px) {
+  .sales-section .img-bx {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sales-section .img-bx .graph-item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+.sales-section.active .img-bx .inner .stamp {
+  opacity: 1;
+  -webkit-transform: scale(1.12);
+          transform: scale(1.12);
+  -webkit-transition: all 0.5s 1s;
+  transition: all 0.5s 1s;
+  -webkit-animation: ci 1s ease infinite;
+          animation: ci 1s ease infinite;
+}
+.sales-section.active .img-bx .graph .graph1 {
+  opacity: 1;
+  height: auto;
+}
+.sales-section.active .img-bx .graph .graph2 {
+  opacity: 1;
+  height: auto;
+}
+.sales-section.active .img-bx .graph .graph3 {
+  opacity: 1;
+  height: auto;
+}
+.sales-section.active .img-bx .graph .step3 .txt1,
+.sales-section.active .img-bx .graph .step3 .txt2,
+.sales-section.active .img-bx .graph .step3 .txt3 {
+  opacity: 1;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-transition: all 0.5s 1s;
+  transition: all 0.5s 1s;
+  -webkit-animation: ci 1s ease infinite;
+          animation: ci 1s ease infinite;
+}
+
+.brand-section {
+  background: url("../images/intro/brand-bg.jpg") no-repeat;
+  background-size: cover;
+  padding: 7rem 0;
+}
+.brand-section .txt-bx {
+  text-align: center;
+}
+.brand-section .txt-bx .des {
+  font-size: 2.5rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #e7e3e3;
+}
+.brand-section .txt-bx .tit {
+  font-size: 3.5rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: white;
+}
+.brand-section .txt-bx .tit .strong {
+  color: #ffcc00;
+}
+.brand-section .txt-bx .txt {
+  font-size: 1.5rem;
+  color: #e7e3e3;
+}
+@media all and (max-width: 768px) {
+  .brand-section .txt-bx .des {
+    font-size: 1.5rem;
+  }
+  .brand-section .txt-bx .tit {
+    font-size: 2.125rem;
+  }
+  .brand-section .txt-bx .txt {
+    font-size: 1rem;
+  }
+}
+.brand-section .brand-swiper {
+  position: relative;
+}
+.brand-section .swiper-container .swiper-wrapper .swiper-slide .img-bx {
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.brand-section .swiper-container .swiper-wrapper .swiper-slide .img-bx::after {
+  content: "";
+  display: block;
+  padding-bottom: 136.25%;
+}
+.brand-section .swiper-container .swiper-wrapper .swiper-slide .img-bx > img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  min-width: 1000%;
+  min-height: 1000%;
+  max-width: none;
+  max-height: none;
+  -webkit-transform: translate(-50%, -50%) scale(0.1);
+          transform: translate(-50%, -50%) scale(0.1);
+}
+.brand-section .swiper-container .swiper-wrapper .swiper-slide .txt-bx {
+  font-size: 1.25rem;
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+}
+.brand-section .swiper-button {
+  border: 1px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 10;
+}
+.brand-section .swiper-button--prev {
+  left: -5%;
+}
+.brand-section .swiper-button--next {
+  right: -5%;
+}
+@media (max-width: 1600px) {
+  .brand-section .swiper-button {
+    display: none;
+  }
+}
+
+.new-section {
+  background: url("../images/intro/new-bg.jpg") no-repeat;
+  background-size: cover;
+  padding: 7rem 0;
+  position: relative;
+  overflow: hidden;
+}
+.new-section .txt-bx {
+  text-align: center;
+  color: white;
+}
+.new-section .txt-bx .des {
+  font-size: 2.5rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #e7e3e3;
+}
+.new-section .txt-bx .tit {
+  font-size: 3.5rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: white;
+  font-weight: bold;
+}
+.new-section .txt-bx .tit .strong {
+  color: #ffcc00;
+}
+.new-section .txt-bx .txt {
+  font-size: 1.5rem;
+  color: #e7e3e3;
+}
+@media all and (max-width: 768px) {
+  .new-section .txt-bx .des {
+    font-size: 1.25rem;
+  }
+  .new-section .txt-bx .tit {
+    font-size: 2rem;
+  }
+  .new-section .txt-bx .txt {
+    font-size: 1.125rem;
+  }
+}
+.new-section .step-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media all and (max-width: 1400px) {
+  .new-section .step-wrap {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    gap: 10px;
+  }
+}
+.new-section .step-wrap .step-item {
+  margin-top: 10px;
+}
+@media all and (max-width: 1024px) {
+  .new-section .step-wrap .step-item.step-img img {
+    width: 11.25rem;
+  }
+}
+@media all and (max-width: 576px) {
+  .new-section .step-wrap .step-item.step-img img {
+    width: 8.4375rem;
+  }
+}
+.new-section .new-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+.new-section .new-wrap .new-left {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 570px;
+          flex: 0 0 570px;
+  max-width: 570px;
+}
+.new-section .new-wrap .new-left .new-item img {
+  width: 100%;
+}
+.new-section .new-wrap .new-left .new-item .subtit {
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  font-size: 1rem;
+  text-align: right;
+  font-weight: 500;
+  color: white;
+  margin-top: 15px;
+}
+@media all and (max-width: 1024px) {
+  .new-section .new-wrap .new-left .new-item .subtit {
+    text-align: left;
+  }
+}
+@media all and (max-width: 1200px) {
+  .new-section .new-wrap .new-left {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    max-width: 100%;
+  }
+}
+.new-section .new-wrap .new-right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  margin-right: -30px;
+}
+.new-section .new-wrap .new-right .new-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30%;
+          flex: 1 1 30%;
+  max-width: 30%;
+  margin-bottom: 30px;
+}
+.new-section .new-wrap .new-right .new-item .inner {
+  text-align: left;
+}
+.new-section .new-wrap .new-right .new-item .inner img {
+  width: 100%;
+}
+.new-section .new-wrap .new-right .new-item .inner .subtit {
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  font-size: 1rem;
+  text-align: left;
+  font-weight: 500;
+  color: white;
+  margin-top: 15px;
+}
+@media all and (max-width: 768px) {
+  .new-section .new-wrap .new-right .new-item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 50%;
+            flex: 1 1 50%;
+    max-width: 50%;
+    padding: 0 10px;
+  }
+}
+@media all and (max-width: 1024px) {
+  .new-section .new-wrap .new-right {
+    margin-right: 0;
+  }
+}
+@media all and (max-width: 768px) {
+  .new-section .new-wrap .new-right {
+    gap: 0px;
+    margin-right: 0;
+    margin-bottom: 10rem;
+    margin: 0 -10px;
+    max-width: none;
+  }
+}
+@media all and (max-width: 768px) {
+  .new-section .new-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.new-section .new-deco {
+  position: absolute;
+  left: 0;
+  bottom: -74px;
+}
+@media all and (max-width: 1200px) {
+  .new-section .new-deco {
+    width: 30%;
+  }
+}
+@media all and (max-width: 576px) {
+  .new-section .new-deco {
+    width: 50%;
+  }
+}
+
+.type-section {
+  background: url("../images/intro/type-bg.jpg") no-repeat;
+  background-size: cover;
+  padding: 7rem 0;
+  position: relative;
+}
+.type-section .txt-bx {
+  text-align: center;
+}
+.type-section .txt-bx .tit {
+  font-size: 3.5rem;
+  color: #111;
+  font-weight: bold;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+}
+.type-section .txt-bx .txt {
+  font-size: 1.5rem;
+  color: #111;
+}
+.type-section .txt-bx .slogan {
+  font-size: 2.375rem;
+  display: inline-block;
+  background-color: #cc092f;
+  color: white;
+  border-radius: 40px;
+  padding: 10px 20px;
+  text-align: center;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  opacity: 0;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+.type-section .txt-bx .slogan img {
+  vertical-align: middle;
+  margin: 0 2px;
+}
+@media all and (max-width: 768px) {
+  .type-section .txt-bx .slogan img {
+    width: 20px;
+  }
+}
+@media all and (max-width: 768px) {
+  .type-section .txt-bx .tit {
+    font-size: 2rem;
+  }
+  .type-section .txt-bx .txt {
+    font-size: 1.125rem;
+  }
+  .type-section .txt-bx .slogan {
+    font-size: 1rem;
+  }
+}
+.type-section .type {
+  text-align: center;
+}
+.type-section .type .des {
+  font-size: 1.75rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #111;
+}
+.type-section .type .tit {
+  font-size: 2.125rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  font-weight: bold;
+  color: #111;
+}
+.type-section .type-wrap {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+.type-section .type-wrap .type-label {
+  position: absolute;
+  left: 20px;
+  top: -13px;
+}
+@media all and (max-width: 1200px) {
+  .type-section .type-wrap .type-label {
+    top: -7px;
+  }
+}
+.type-section .type-wrap .type-item {
+  position: relative;
+  background-color: white;
+  border: 2px solid #aaaaaa;
+  max-width: 350px;
+  width: 100%;
+}
+.type-section .type-wrap .type-item .store-tit {
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  font-size: 1.25rem;
+  padding: 2rem;
+  padding-top: 2.8rem;
+  text-align: left;
+  color: #444;
+}
+.type-section .type-wrap .type-item .store-tit strong {
+  font-size: 1.75rem;
+  color: #111;
+  margin-right: 10px;
+}
+@media all and (max-width: 576px) {
+  .type-section .type-wrap .type-item .store-tit {
+    padding: 0.5rem;
+    padding-top: 2rem;
+    font-size: 0.875rem;
+  }
+  .type-section .type-wrap .type-item .store-tit strong {
+    font-size: 1rem;
+  }
+}
+.type-section .type-wrap .type-item .store-price {
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  background-color: #484242;
+  padding: 0.8rem;
+  font-size: 3rem;
+  color: white;
+}
+.type-section .type-wrap .type-item .store-price strong {
+  font-size: 3.125rem;
+  font-weight: 500;
+  color: #ffc600;
+  margin-right: 5px;
+  -webkit-animation: blink2 1.5s ease infinite 2s;
+          animation: blink2 1.5s ease infinite 2s;
+}
+@media all and (max-width: 768px) {
+  .type-section .type-wrap .type-item .store-price {
+    font-size: 1rem;
+    padding: 0.5rem;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .type-section .type-wrap .type-item .store-price strong {
+    font-size: 1rem;
+  }
+}
+@media all and (max-width: 1400px) {
+  .type-section .type-wrap .type-item {
+    max-width: 250px;
+  }
+  .type-section .type-wrap .type-item .store-price {
+    font-size: 1.125rem;
+  }
+}
+@media all and (max-width: 1200px) {
+  .type-section .type-wrap .type-item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 31%;
+            flex: 1 1 31%;
+    max-width: 31%;
+    margin-top: 20px;
+  }
+}
+@media all and (max-width: 1200px) {
+  .type-section .type-wrap {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+.type-section.active .txt-bx .slogan {
+  opacity: 1;
+  -webkit-transform: scale(1.12);
+          transform: scale(1.12);
+  -webkit-transition: all 0.5s 1s;
+  transition: all 0.5s 1s;
+  -webkit-animation: zio 1.5s ease infinite 2s;
+          animation: zio 1.5s ease infinite 2s;
+  -webkit-animation: colorBlink2 1s step-end infinite;
+          animation: colorBlink2 1s step-end infinite;
+}
+
+.ranking-section {
+  background: url("../images/intro/sns-bg.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 7rem;
+}
+.ranking-section .rank-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.ranking-section .rank-top .txt-bx .tit {
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  font-weight: bold;
+  font-size: 4.25rem;
+  color: #111;
+  margin-bottom: -24px;
+}
+.ranking-section .rank-top .txt-bx .neon-txt {
+  position: relative;
+}
+.ranking-section .rank-top .txt-bx .neon-txt .words {
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  font-weight: bold;
+  font-size: 4.25rem;
+  color: white;
+  position: absolute;
+  left: 27px;
+  top: 15px;
+  -webkit-transform: rotate(-4deg);
+          transform: rotate(-4deg);
+}
+.ranking-section .rank-top .txt-bx .neon-txt .words .first {
+  -webkit-text-stroke: 1px rgb(253, 253, 189);
+  text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 0px #ffffff, 0 0 0px #ffffff, 0 0 4px #ffffff, 0 0 66px #ffffff;
+  -webkit-animation: blink 1s step-end infinite 2.5s;
+          animation: blink 1s step-end infinite 2.5s;
+}
+@media all and (max-width: 768px) {
+  .ranking-section .rank-top .txt-bx .neon-txt .words {
+    font-size: 2.875rem;
+  }
+}
+@media all and (max-width: 576px) {
+  .ranking-section .rank-top .txt-bx .neon-txt .words {
+    font-size: 2.5rem;
+  }
+}
+@media all and (max-width: 375px) {
+  .ranking-section .rank-top .txt-bx .neon-txt .words {
+    font-size: 2.25rem;
+  }
+}
+@media all and (max-width: 768px) {
+  .ranking-section .rank-top .txt-bx .neon-txt img {
+    max-width: 300px;
+  }
+}
+@media all and (max-width: 576px) {
+  .ranking-section .rank-top .txt-bx .neon-txt img {
+    max-width: 230px;
+  }
+}
+.ranking-section .rank-top .txt-bx .des {
+  font-size: 1.5rem;
+  position: relative;
+  color: #111;
+}
+.ranking-section .rank-top .txt-bx .des img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+@media all and (max-width: 1400px) {
+  .ranking-section .rank-top .txt-bx .tit {
+    font-size: 2.375rem;
+    margin-bottom: 0px;
+  }
+  .ranking-section .rank-top .txt-bx .des {
+    font-size: 1.125rem;
+  }
+}
+.ranking-section .rank-top .img-bx {
+  -webkit-animation: deli 0.5s ease 0.5s;
+          animation: deli 0.5s ease 0.5s;
+}
+@media all and (max-width: 1200px) {
+  .ranking-section .rank-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 2rem;
+  }
+}
+.ranking-section .ranking-swiper {
+  position: relative;
+}
+.ranking-section .ranking-swiper .swiper-container .swiper-wrapper .swiper-slide .img-bx {
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.ranking-section .ranking-swiper .swiper-container .swiper-wrapper .swiper-slide .img-bx::after {
+  content: "";
+  display: block;
+  padding-bottom: 162.8787878788%;
+}
+.ranking-section .ranking-swiper .swiper-container .swiper-wrapper .swiper-slide .img-bx > img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  min-width: 1000%;
+  min-height: 1000%;
+  max-width: none;
+  max-height: none;
+  -webkit-transform: translate(-50%, -50%) scale(0.1);
+          transform: translate(-50%, -50%) scale(0.1);
+}
+.ranking-section .ranking-swiper .swiper-container .swiper-wrapper .swiper-slide:nth-of-type(odd) {
+  padding-top: 50px;
+}
+.ranking-section .ranking-swiper .swiper-button {
+  border: 1px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 10;
+}
+.ranking-section .ranking-swiper .swiper-button--prev {
+  left: -5%;
+}
+.ranking-section .ranking-swiper .swiper-button--next {
+  right: -5%;
+}
+@media all and (max-width: 1200px) {
+  .ranking-section .ranking-swiper .swiper-button {
+    display: none;
+  }
+}
+.ranking-section .phone-swiper {
+  position: relative;
+}
+.ranking-section .phone-swiper .sns-deco {
+  z-index: 30;
+  position: relative;
+  -webkit-animation: down 2s ease-in-out infinite 3s;
+          animation: down 2s ease-in-out infinite 3s;
+}
+@media all and (max-width: 1200px) {
+  .ranking-section .phone-swiper .sns-deco {
+    width: 300%;
+    text-align: center;
+  }
+}
+.ranking-section .phone-swiper .swiper-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.ranking-section .phone-swiper .swiper-container .swiper-wrapper {
+  margin-left: -40px;
+}
+.ranking-section .phone-swiper .swiper-container .swiper-wrapper .swiper-slide .img-bx {
+  width: 100%;
+  text-align: center;
+}
+.ranking-section .phone-swiper .swiper-container .swiper-wrapper .swiper-slide .slide-ori {
+  display: inline-block;
+}
+.ranking-section .phone-swiper .swiper-container .swiper-wrapper .swiper-slide .slide-active {
+  display: none;
+}
+.ranking-section .phone-swiper .swiper-container .swiper-wrapper .swiper-slide-active {
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7);
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 75px;
+}
+.ranking-section .phone-swiper .swiper-container .swiper-wrapper .swiper-slide-active .slide-ori {
+  display: none;
+}
+.ranking-section .phone-swiper .swiper-container .swiper-wrapper .swiper-slide-active .slide-active {
+  display: block;
+}
+.ranking-section .phone-swiper .swiper-button {
+  border: 1px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 10;
+}
+.ranking-section .phone-swiper .swiper-button--prev {
+  left: -5%;
+}
+.ranking-section .phone-swiper .swiper-button--next {
+  right: -5%;
+}
+@media all and (max-width: 1200px) {
+  .ranking-section .phone-swiper .swiper-button {
+    display: none;
+  }
+}
+
+.popular-section {
+  background: url("../images/intro/popular-bg.jpg") no-repeat;
+  background-size: cover;
+  padding: 7rem 0;
+}
+.popular-section .txt-bx {
+  text-align: center;
+}
+.popular-section .txt-bx .tit {
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  font-size: 3.5rem;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: -36px;
+}
+.popular-section .txt-bx .tit img {
+  margin-bottom: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media all and (max-width: 1024px) {
+  .popular-section .txt-bx .tit {
+    font-size: 2.125rem;
+  }
+}
+.popular-section .txt-bx .txt {
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  font-size: 1.75rem;
+  color: #e7e3e3;
+  position: relative;
+  display: inline-block;
+}
+.popular-section .txt-bx .txt .star {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.popular-section .txt-bx .txt .strong {
+  position: relative;
+}
+.popular-section .txt-bx .txt .strong img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.popular-section .menu-wrap .menu-item {
+  position: relative;
+}
+.popular-section .menu-wrap .menu-item .inner .img-bx {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.popular-section .menu-wrap .menu-item .inner .img-bx::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.popular-section .menu-wrap .menu-item .inner .img-bx > img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  min-width: 1000%;
+  min-height: 1000%;
+  max-width: none;
+  max-height: none;
+  -webkit-transform: translate(-50%, -50%) scale(0.1);
+          transform: translate(-50%, -50%) scale(0.1);
+}
+.popular-section .menu-wrap .menu-item .tit-bx {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: white;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: mixed;
+  padding: 2rem;
+}
+.popular-section .menu-wrap .menu-item .tit-bx .tit {
+  font-size: 1.875rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #111;
+  letter-spacing: -2px;
+}
+.popular-section .menu-wrap .menu-item .tit-bx .txt {
+  font-size: 1.125rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #111;
+  letter-spacing: -2px;
+}
+.popular-section .menu-wrap .menu-item .tit-bx.bx2 {
+  position: absolute;
+  top: auto;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  text-align: right;
+}
+@media (max-width: 1800px) {
+  .popular-section .menu-wrap .menu-item .tit-bx .tit {
+    font-size: 1.375rem;
+  }
+  .popular-section .menu-wrap .menu-item .tit-bx .txt {
+    font-size: 1rem;
+  }
+}
+@media all and (max-width: 1400px) {
+  .popular-section .menu-wrap .menu-item .tit-bx {
+    padding: 1rem;
+  }
+  .popular-section .menu-wrap .menu-item .tit-bx .tit {
+    font-size: 1.125rem;
+  }
+  .popular-section .menu-wrap .menu-item .tit-bx .txt {
+    font-size: 0.9375rem;
+  }
+}
+@media all and (max-width: 1024px) {
+  .popular-section .menu-wrap .menu-item .tit-bx {
+    padding: 2rem;
+  }
+  .popular-section .menu-wrap .menu-item .tit-bx .tit {
+    font-size: 1.5rem;
+  }
+  .popular-section .menu-wrap .menu-item .tit-bx .txt {
+    font-size: 1rem;
+    letter-spacing: -2px;
+  }
+}
+.popular-section .menu-wrap .menu-item:nth-of-type(even) {
+  margin-top: 40px;
+}
+@media all and (max-width: 1024px) {
+  .popular-section .menu-wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .popular-section .menu-wrap .menu-item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 50%;
+            flex: 1 1 50%;
+    max-width: 50%;
+  }
+  .popular-section .menu-wrap .menu-item:nth-of-type(even) {
+    margin-top: 0px;
+  }
+}
+@media all and (max-width: 576px) {
+  .popular-section .menu-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .popular-section .menu-wrap .menu-item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+.popular-section .menu-link {
+  font-size: 1.25rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #111;
+  background-color: white;
+  padding: 1rem 3.5rem;
+  border-radius: 30px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.map-section {
+  background-color: #efecec;
+  padding: 7rem 0;
+}
+.map-section .txt-bx {
+  text-align: center;
+}
+.map-section .txt-bx .subtit {
+  font-size: 2.5rem;
+  color: #333333;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+}
+.map-section .txt-bx .tit {
+  font-size: 3.5rem;
+  color: #111111;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  font-weight: bold;
+}
+.map-section .txt-bx .tit .main-color {
+  color: #cc092f;
+}
+.map-section .txt-bx .txt {
+  font-size: 1.5rem;
+  color: #333333;
+  letter-spacing: -0.03em;
+}
+@media all and (max-width: 1024px) {
+  .map-section .txt-bx .subtit {
+    font-size: 1.25rem;
+  }
+  .map-section .txt-bx .tit {
+    font-size: 2rem;
+  }
+  .map-section .txt-bx .txt {
+    font-size: 1.125rem;
+  }
+}
+.map-section .map-bx .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.map-section .map-bx .inner .map-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  max-width: 50%;
+  position: relative;
+}
+.map-section .map-bx .inner .map-item .txt-inner {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: white;
+  width: 100%;
+}
+.map-section .map-bx .inner .map-item .txt-inner .tit {
+  font-size: 2.125rem;
+  position: relative;
+  line-height: 1.2;
+  padding: 20px 0;
+}
+.map-section .map-bx .inner .map-item .txt-inner .tit .vs-ico {
+  position: absolute;
+  right: -42px;
+  top: 10px;
+  z-index: 20;
+}
+.map-section .map-bx .inner .map-item .txt-inner .des {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
+.map-section .map-bx .inner .map-item .txt-inner .des .spot {
+  position: relative;
+}
+.map-section .map-bx .inner .map-item .txt-inner .des .spot img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.map-section .map-bx .inner .map-item .blink {
+  position: absolute;
+  left: 38px;
+  top: 43px;
+}
+.map-section .map-bx .inner .map-item .blink.blink2 {
+  -webkit-animation: blink 1s ease infinite 0.5s;
+          animation: blink 1s ease infinite 0.5s;
+}
+@media all and (max-width: 1024px) {
+  .map-section .map-bx .inner .map-item .blink {
+    left: 0;
+    top: 0;
+  }
+}
+.map-section .map-bx .inner .map-item.map1 .tit {
+  background-color: #2b2b2b;
+  text-align: center;
+}
+.map-section .map-bx .inner .map-item.map1 .des {
+  font-size: 1.5rem;
+  color: #111;
+  text-align: left;
+}
+.map-section .map-bx .inner .map-item.map2 .tit {
+  background-color: #cc092f;
+  text-align: center;
+}
+.map-section .map-bx .inner .map-item.map2 .des {
+  font-size: 1.5rem;
+  color: #cc092f;
+  text-align: left;
+}
+.map-section .map-bx .inner .map-item.map2 .vs-ico2 {
+  display: none;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: -50px;
+  z-index: 20;
+  width: 70px;
+}
+@media all and (max-width: 768px) {
+  .map-section .map-bx .inner .map-item.map2 .vs-ico2 {
+    display: block;
+  }
+}
+@media all and (max-width: 768px) {
+  .map-section .map-bx .inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 3rem;
+  }
+}
+@media all and (max-width: 1400px) {
+  .map-section .map-bx .inner .map-item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+  }
+  .map-section .map-bx .inner .map-item.map1 .tit, .map-section .map-bx .inner .map-item.map2 .tit {
+    font-size: 1.125rem;
+  }
+  .map-section .map-bx .inner .map-item.map1 .des, .map-section .map-bx .inner .map-item.map2 .des {
+    font-size: 1rem;
+  }
+}
+@media all and (max-width: 1400px) and (max-width: 768px) {
+  .map-section .map-bx .inner .map-item {
+    max-width: 100%;
+  }
+}
+
+.edu-section {
+  background: url("../images/intro/edu-bg.jpg") no-repeat;
+  background-size: cover;
+  padding: 7rem 0;
+}
+.edu-section .txt-bx {
+  text-align: center;
+}
+.edu-section .txt-bx .subtit {
+  display: inline-block;
+  font-size: 1.625rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #111;
+  background-color: #ffb400;
+  border-radius: 20px;
+  padding: 3px 20px;
+}
+.edu-section .txt-bx .tit {
+  font-size: 3.5rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #111111;
+  font-weight: bold;
+}
+.edu-section .txt-bx .tit .main-color {
+  color: #cc092f;
+}
+.edu-section .txt-bx .des {
+  font-size: 1.5rem;
+  letter-spacing: -0.025em;
+  color: #333;
+}
+@media all and (max-width: 1024px) {
+  .edu-section .txt-bx .subtit {
+    font-size: 1.125rem;
+    padding: 3px 10px;
+  }
+  .edu-section .txt-bx .tit {
+    font-size: 2.125rem;
+  }
+  .edu-section .txt-bx .des {
+    font-size: 1rem;
+  }
+}
+.edu-section .table-bx {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 30px;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 2rem;
+}
+.edu-section .table-bx .txt-bx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.edu-section .table-bx .tit {
+  font-size: 2rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #cc092f;
+  text-align: center;
+}
+.edu-section .table-bx .txt {
+  font-size: 1.25rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #333333;
+  text-align: center;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.edu-section .table-bx .txt img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.edu-section .table-bx .txt2 {
+  font-size: 0.875rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #666;
+  padding-bottom: 10px;
+}
+.edu-section .table-bx table {
+  table-layout: fixed;
+  width: 100%;
+  border-bottom: 2px solid #111;
+}
+.edu-section .table-bx table th,
+.edu-section .table-bx table td {
+  text-align: center;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.edu-section .table-bx table th:last-child,
+.edu-section .table-bx table td:last-child {
+  border-right: 0;
+}
+.edu-section .table-bx table th {
+  padding: 5px 0;
+}
+.edu-section .table-bx table th.bubble {
+  position: relative;
+}
+.edu-section .table-bx table th.bubble img {
+  position: absolute;
+  left: 8px;
+  top: -71px;
+  -webkit-animation: blink 1s ease infinite 0.5s;
+          animation: blink 1s ease infinite 0.5s;
+}
+@media all and (max-width: 768px) {
+  .edu-section .table-bx table th.bubble img {
+    top: -54px;
+  }
+}
+.edu-section .table-bx table td {
+  padding: 15px;
+}
+.edu-section .table-bx table thead th {
+  background-color: #cc092f;
+  color: white;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  font-weight: 300;
+}
+.edu-section .table-bx table thead th.corner-left {
+  border-radius: 30px 0 0 0;
+}
+.edu-section .table-bx table thead th.corner-right {
+  border-radius: 0 30px 0 0;
+}
+.edu-section .table-bx table tbody th {
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #333333;
+}
+.edu-section .table-bx table tbody td {
+  color: #666666;
+}
+.edu-section .table-bx table tbody .bg {
+  background-color: #333333;
+  color: white;
+}
+.edu-section .table-list {
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  font-size: 1rem;
+  color: #222222;
+}
+
+.area-section {
+  background: url("../images/intro/area-bg.jpg") no-repeat;
+  background-size: cover;
+  padding: 7rem 0;
+}
+.area-section .txt-bx {
+  text-align: center;
+}
+.area-section .txt-bx .des {
+  font-size: 1.5rem;
+  color: #333333;
+  letter-spacing: -0.025em;
+}
+@media all and (max-width: 1024px) {
+  .area-section .txt-bx .des {
+    font-size: 1.125rem;
+  }
+}
+.area-section table {
+  table-layout: fixed;
+  width: 100%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 25px 20px -20px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 25px 20px -20px;
+}
+.area-section table tr:nth-of-type(odd) {
+  background-color: white;
+}
+.area-section table tr:nth-of-type(even) {
+  background-color: #f6f6f6;
+}
+.area-section table th,
+.area-section table td {
+  text-align: center;
+  border-right: 1px solid #ddd;
+  font-weight: 300;
+}
+.area-section table th:last-child,
+.area-section table td:last-child {
+  border-right: 0;
+}
+.area-section table th.bottom-left,
+.area-section table td.bottom-left {
+  border-radius: 0 0 0 30px;
+}
+@media all and (max-width: 1024px) {
+  .area-section table th.bottom-left,
+.area-section table td.bottom-left {
+    border-radius: 0 0 0 15px;
+  }
+}
+.area-section table th.bottom-right,
+.area-section table td.bottom-right {
+  border-radius: 0 0 30px 0;
+}
+@media all and (max-width: 1024px) {
+  .area-section table th.bottom-right,
+.area-section table td.bottom-right {
+    border-radius: 0 0 15px 0;
+  }
+}
+.area-section table th {
+  padding: 5px 0;
+  color: #222;
+}
+.area-section table th.bubble {
+  position: relative;
+}
+.area-section table th.bubble img {
+  position: absolute;
+  left: 8px;
+  top: -71px;
+}
+.area-section table td {
+  padding: 15px;
+  text-align: left;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #777;
+}
+.area-section table thead th {
+  background-color: #cc092f;
+  color: white;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  font-size: 1.25rem;
+  padding: 20px 0;
+}
+.area-section table thead th.corner-left {
+  border-radius: 30px 0 0 0;
+}
+@media all and (max-width: 1024px) {
+  .area-section table thead th.corner-left {
+    border-radius: 15px 0 0 0;
+  }
+}
+.area-section table thead th.corner-right {
+  border-radius: 0 30px 0 0;
+}
+@media all and (max-width: 1024px) {
+  .area-section table thead th.corner-right {
+    border-radius: 0 15px 0 0;
+  }
+}
+.area-section table tbody th {
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #333333;
+}
+.area-section table tbody td {
+  color: #666666;
+}
+.area-section table tbody .bg {
+  background-color: #333333;
+  color: white;
+}
+
+.inquiry-section {
+  background: url("../images/intro/inquiry-bg.jpg") no-repeat;
+  background-size: cover;
+  padding: 7rem 0;
+  padding-bottom: 14rem;
+}
+.inquiry-section .txt-bx {
+  text-align: center;
+  color: white;
+}
+.inquiry-section .txt-bx .txt {
+  font-size: 1.5rem;
+  color: #e7e3e3;
+  letter-spacing: -0.025em;
+}
+.inquiry-section .table-bx {
+  background-color: #eaeaea;
+  border-radius: 30px;
+  padding: 3rem 2rem;
+}
+.inquiry-section .table-bx .tit {
+  font-size: 3.25rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  text-align: center;
+}
+.inquiry-section .table-bx .tit .main-color {
+  color: #cc092f;
+}
+@media all and (max-width: 1024px) {
+  .inquiry-section .table-bx .tit {
+    font-size: 2.125rem;
+  }
+}
+.inquiry-section .table-bx .des {
+  font-size: 0.875rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #666666;
+  text-align: right;
+}
+@media all and (max-width: 1024px) {
+  .inquiry-section .table-bx .des {
+    text-align: center;
+  }
+}
+@media all and (max-width: 1024px) {
+  .inquiry-section .table-bx {
+    padding: 1rem;
+  }
+}
+.inquiry-section .table-form-01 {
+  table-layout: fixed;
+  width: 100%;
+  border-top: 2px solid #cc092f;
+  border-bottom: 2px solid #ddd;
+  color: white;
+  background-color: transparent;
+}
+.inquiry-section .table-form-01 tr:first-child th,
+.inquiry-section .table-form-01 tr:first-child td {
+  padding-top: 30px;
+}
+.inquiry-section .table-form-01 th,
+.inquiry-section .table-form-01 td {
+  text-align: center;
+  color: white;
+  border-bottom: 0;
+}
+.inquiry-section .table-form-01 th:last-child,
+.inquiry-section .table-form-01 td:last-child {
+  border-right: 0;
+}
+.inquiry-section .table-form-01 th {
+  padding: 10px 15px;
+  text-align: left;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.inquiry-section .table-form-01 th .required {
+  color: #cc092f;
+}
+.inquiry-section .table-form-01 td {
+  padding: 10px 15px;
+  text-align: left;
+}
+.inquiry-section .table-form-01 td .select-bx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+@media all and (max-width: 768px) {
+  .inquiry-section .table-form-01 td .select-bx.store-select {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+.inquiry-section .table-form-01 td .select-bx .select-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+@media all and (max-width: 1400px) {
+  .inquiry-section .table-form-01 td .select-bx {
+    gap: 5px;
+  }
+}
+.inquiry-section .table-form-01 tbody th {
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  color: #333333;
+  padding-left: 30px;
+}
+.inquiry-section .table-form-01 tbody td {
+  color: #666666;
+}
+.inquiry-section .table-form-01 tbody .bg {
+  background-color: #333333;
+  color: white;
+}
+@media all and (max-width: 1024px) {
+  .inquiry-section .table-form-01 tr:first-child th,
+.inquiry-section .table-form-01 tr:first-child td {
+    padding-top: 0;
+  }
+  .inquiry-section .table-form-01 colgroup {
+    display: none;
+  }
+  .inquiry-section .table-form-01 tr {
+    display: block;
+    padding: 12px 5px;
+    border-bottom: 1px solid #ddd;
+  }
+  .inquiry-section .table-form-01 tr th,
+.inquiry-section .table-form-01 tr td {
+    display: block;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+  }
+  .inquiry-section .table-form-01 tr th .input_30,
+.inquiry-section .table-form-01 tr td .input_30 {
+    max-width: 100%;
+  }
+  .inquiry-section .table-form-01 tr th {
+    margin-bottom: 8px;
+  }
+}
+.inquiry-section .btn-type-01 {
+  font-size: 1.625rem;
+  font-family: "GongGothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Times New Roman", "Palatino Linotype", "Book Antiqua", Georgia, Times, Palatino, serif;
+  background-color: #cc092f;
+  border-color: #cc092f;
+  color: white;
+  border-radius: 30px;
+  padding: 1rem;
+  max-width: 22.5rem;
+  width: 100%;
+}
+.inquiry-section .btn-type-01:hover {
+  background-color: #9b0724 !important;
+}
+@media all and (max-width: 1400px) {
+  .inquiry-section {
+    padding-bottom: 20rem;
+  }
+}
+/*# sourceMappingURL=intro.css.map */
