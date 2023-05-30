@@ -39,18 +39,15 @@ $nav_policy_2 = "이용약관";
 $nav_policy_3 = "이메일무단수집거부";
 
 // 네비게이션 하이퍼링크
-$nav_1_href = "../template/template.html";
-$nav_1_1_href = "../template/template.html";
-$nav_1_2_href = "../template/board-list.html";
-$nav_1_3_href = "../template/calendar.html";
-$nav_1_4_href = "../template/location.html";
-$nav_1_5_href = "../template/find_account.html";
-$nav_1_6_href = "../template/sns-login.html";
-$nav_1_7_href = "../template/hover-effect.html";
-// $nav_1_2_href = "../test/dp3-test__alpha.html";
-// $nav_1_2_1_href = "../test/dp3-test__alpha.html";
-// $nav_1_2_2_href = "../test/dp3-test__bravo.html";
-// $nav_1_2_3_href = "../test/dp3-test__charlie.html";
+$nav_1_href = "#promise-section";
+$nav_2_href = "#brand-section";
+$nav_3_href = "#type-section";
+$nav_4_href = "#ranking-section";
+$nav_5_href = "#popular-section";
+$nav_6_href = "#map-section";
+$nav_7_href = "#edu-section";
+$nav_8_href = "#area-section";
+$nav_9_href = "#inquiry-section";
 
 $nav_policy_href = "../policy/privacy.html";
 $nav_policy_1_href = "../policy/privacy.html";
